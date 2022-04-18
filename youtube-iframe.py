@@ -12,7 +12,7 @@ name_of_path = input("enter path name: ")
 urls = json_.read_data(path=name_of_path, name=name_of_path)
 iframes = {}
 
-driver = webdriver.Chrome('./chromedriver.exe')
+driver = webdriver.Chrome('.\chromedriver.exe')
 
 for index, url in enumerate(urls):
     try:

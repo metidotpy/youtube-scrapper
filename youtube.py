@@ -12,7 +12,7 @@ urls = []
 
 name = input("enter name of your file: ")
 url = input('enter your videos page url: ')
-driver = webdriver.Chrome("./chromedriver")
+driver = webdriver.Chrome(".\chromedriver.exe")
 try:
     driver.get(url)
     time.sleep(3)
